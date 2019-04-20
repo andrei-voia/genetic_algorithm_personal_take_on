@@ -1,0 +1,13 @@
+~~~ Training Dataset ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Layers: 3
+[20, 8, 7]  (neurons per layer)
+['relu', 'tanh', 'tanh']  (activation functions)
+
+Accuracy: 0.8136165621314433
+Percentage: 81.36%
+
+Name of the written model: Generation_11_prediction_81.362%.sav
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

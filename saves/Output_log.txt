@@ -1,0 +1,5252 @@
+~~~ OUTPUT LOG ~~~
+
+
+~~~~ SYSTEM VERSION ~~~~
+3.5.2 (default, Nov 23 2017, 16:37:01) 
+[GCC 5.4.0 20160609]
+
+~~~~ STARTING TIME ~~~~
+-> 25d:10m:2018y 
+-> 11h:44m:38s 
+
+
+
+... STARTING TRAINING ...
+
+
+~~~~ GENERATION 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+
+Memory 0:
+WAITING...
+Baseline: 59.420% (13.74%)
+DONE.
+
+Memory 1:
+WAITING...
+Baseline: 77.588% (0.67%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 73.446% (1.93%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 60.878% (12.16%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 80.074% (0.14%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 77.496% (0.86%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 80.442% (0.37%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 67.459% (16.56%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 71.513% (1.69%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31775e3f98
+layers: 4
+[20, 19, 15, 4] // neurons per layer
+['sigmoid', 'relu', 'relu', 'relu'] // activation functions
+Prediction: 59.420%
+Memory 1:
+MEMORY LOCATION: 0x7f3177601668
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.588%
+Memory 2:
+MEMORY LOCATION: 0x7f3177601d30
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: 73.446%
+Memory 3:
+MEMORY LOCATION: 0x7f3177613438
+layers: 5
+[20, 5, 4, 4, 4] // neurons per layer
+['relu', 'sigmoid', 'sigmoid', 'relu', 'sigmoid'] // activation functions
+Prediction: 60.878%
+Memory 4:
+MEMORY LOCATION: 0x7f3177613b00
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 80.074%
+Memory 5:
+MEMORY LOCATION: 0x7f3177616208
+layers: 4
+[20, 15, 4, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'tanh'] // activation functions
+Prediction: 77.496%
+Memory 6:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 7:
+MEMORY LOCATION: 0x7f3177616f98
+layers: 3
+[20, 17, 5] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: 67.459%
+Memory 8:
+MEMORY LOCATION: 0x7f31776186a0
+layers: 3
+[20, 5, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu'] // activation functions
+Prediction: 71.513%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 1:
+MEMORY LOCATION: 0x7f311fe38eb8
+layers: 3
+[20, 17, 5] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f311fdd9fd0
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f311fdf4c18
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f311fdf5898
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f311fdf8518
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f311fdfc198
+layers: 3
+[20, 5, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f311fdfcdd8
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f315419c860
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+3
+[20, 17, 5]
+['relu', 'sigmoid', 'relu']
+
+MEMORY LOCATION: 0x7f311fe38eb8
+
+~~ After: 
+Memory 1
+4
+[20, 15, 12, 4]
+['relu', 'sigmoid', 'relu', 'tanh']
+
+~~ Before:
+Memory 2
+4
+[20, 14, 3, 3]
+['sigmoid', 'sigmoid', 'tanh', 'relu']
+
+MEMORY LOCATION: 0x7f311fdd9fd0
+
+~~ After: 
+Memory 2
+4
+[20, 14, 3, 3]
+['tanh', 'sigmoid', 'tanh', 'relu']
+
+~~ Before:
+Memory 3
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f311fdf4c18
+
+~~ After: 
+Memory 3
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 4
+4
+[20, 14, 3, 3]
+['sigmoid', 'sigmoid', 'tanh', 'relu']
+
+MEMORY LOCATION: 0x7f311fdf5898
+
+~~ After: 
+Memory 4
+4
+[20, 14, 5, 3]
+['sigmoid', 'sigmoid', 'tanh', 'relu']
+
+~~ Before:
+Memory 5
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f311fdf8518
+
+~~ After: 
+Memory 5
+5
+[20, 15, 13, 10, 7]
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 6
+3
+[20, 5, 4]
+['sigmoid', 'sigmoid', 'relu']
+
+MEMORY LOCATION: 0x7f311fdfc198
+
+~~ After: 
+Memory 6
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+~~ Before:
+Memory 7
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f311fdfcdd8
+
+~~ After: 
+Memory 7
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 8
+4
+[20, 14, 3, 3]
+['sigmoid', 'sigmoid', 'tanh', 'relu']
+
+MEMORY LOCATION: 0x7f315419c860
+
+~~ After: 
+Memory 8
+4
+[20, 14, 3, 3]
+['sigmoid', 'sigmoid', 'tanh', 'sigmoid']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 1:
+MEMORY LOCATION: 0x7f311fe38eb8
+layers: 4
+[20, 15, 12, 4] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f311fdd9fd0
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['tanh', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f311fdf4c18
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f311fdf5898
+layers: 4
+[20, 14, 5, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f311fdf8518
+layers: 5
+[20, 15, 13, 10, 7] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f311fdfc198
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f311fdfcdd8
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f315419c860
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 80.442% 
+
+Memory 1:
+WAITING...
+Baseline: 67.005% (1.64%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 53.204% (15.27%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 77.818% (0.80%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 72.295% (1.57%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 70.504% (3.85%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 70.087% (3.74%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 77.266% (0.75%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 68.339% (1.71%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 1:
+MEMORY LOCATION: 0x7f311fe38eb8
+layers: 4
+[20, 15, 12, 4] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: 67.005%
+Memory 2:
+MEMORY LOCATION: 0x7f311fdd9fd0
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['tanh', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: 53.204%
+Memory 3:
+MEMORY LOCATION: 0x7f311fdf4c18
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.818%
+Memory 4:
+MEMORY LOCATION: 0x7f311fdf5898
+layers: 4
+[20, 14, 5, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'relu'] // activation functions
+Prediction: 72.295%
+Memory 5:
+MEMORY LOCATION: 0x7f311fdf8518
+layers: 5
+[20, 15, 13, 10, 7] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: 70.504%
+Memory 6:
+MEMORY LOCATION: 0x7f311fdfc198
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: 70.087%
+Memory 7:
+MEMORY LOCATION: 0x7f311fdfcdd8
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.266%
+Memory 8:
+MEMORY LOCATION: 0x7f315419c860
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'sigmoid'] // activation functions
+Prediction: 68.339%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 1:
+MEMORY LOCATION: 0x7f31193e3898
+layers: 5
+[20, 15, 13, 10, 7] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f31193925f8
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f3119381da0
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f31193ab940
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f31193b1240
+layers: 4
+[20, 14, 3, 3] // neurons per layer
+['sigmoid', 'sigmoid', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f31193b1e80
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f311bab9ba8
+layers: 4
+[20, 15, 12, 4] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+5
+[20, 15, 13, 10, 7]
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f31193e3898
+
+~~ After: 
+Memory 1
+5
+[20, 13, 13, 10, 7]
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 2
+5
+[20, 20, 9, 7, 5]
+['tanh', 'relu', 'tanh', 'tanh', 'relu']
+
+MEMORY LOCATION: 0x7f31193925f8
+
+~~ After: 
+Memory 2
+5
+[20, 20, 7, 7, 5]
+['tanh', 'relu', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 3
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f3119381da0
+
+~~ After: 
+Memory 3
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+~~ Before:
+Memory 4
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f31193ab940
+
+~~ After: 
+Memory 4
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'tanh']
+
+~~ Before:
+Memory 5
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f31193ac5c0
+
+~~ After: 
+Memory 5
+2
+[20, 10]
+['tanh', 'tanh']
+
+~~ Before:
+Memory 6
+4
+[20, 14, 3, 3]
+['sigmoid', 'sigmoid', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f31193b1240
+
+~~ After: 
+Memory 6
+4
+[20, 17, 3, 3]
+['sigmoid', 'relu', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 7
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f31193b1e80
+
+~~ After: 
+Memory 7
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 8
+4
+[20, 15, 12, 4]
+['relu', 'sigmoid', 'relu', 'tanh']
+
+MEMORY LOCATION: 0x7f311bab9ba8
+
+~~ After: 
+Memory 8
+4
+[20, 18, 12, 4]
+['relu', 'sigmoid', 'relu', 'tanh']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 1:
+MEMORY LOCATION: 0x7f31193e3898
+layers: 5
+[20, 13, 13, 10, 7] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f31193925f8
+layers: 5
+[20, 20, 7, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f3119381da0
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f31193ab940
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f31193b1240
+layers: 4
+[20, 17, 3, 3] // neurons per layer
+['sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f31193b1e80
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f311bab9ba8
+layers: 4
+[20, 18, 12, 4] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 80.442% 
+
+Memory 1:
+WAITING...
+Baseline: 70.685% (3.10%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 80.442% (0.79%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 62.858% (12.62%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 61.722% (14.78%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 81.178% (0.91%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 71.376% (0.25%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 77.864% (0.44%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 70.731% (3.15%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31776168d0
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 1:
+MEMORY LOCATION: 0x7f31193e3898
+layers: 5
+[20, 13, 13, 10, 7] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: 70.685%
+Memory 2:
+MEMORY LOCATION: 0x7f31193925f8
+layers: 5
+[20, 20, 7, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 80.442%
+Memory 3:
+MEMORY LOCATION: 0x7f3119381da0
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: 62.858%
+Memory 4:
+MEMORY LOCATION: 0x7f31193ab940
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: 61.722%
+Memory 5:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 6:
+MEMORY LOCATION: 0x7f31193b1240
+layers: 4
+[20, 17, 3, 3] // neurons per layer
+['sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: 71.376%
+Memory 7:
+MEMORY LOCATION: 0x7f31193b1e80
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 77.864%
+Memory 8:
+MEMORY LOCATION: 0x7f311bab9ba8
+layers: 4
+[20, 18, 12, 4] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: 70.731%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f31126ccef0
+layers: 5
+[20, 20, 7, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f31126fca90
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f311269f828
+layers: 4
+[20, 18, 12, 4] // neurons per layer
+['relu', 'sigmoid', 'relu', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f31126a24a8
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f31126a3128
+layers: 4
+[20, 17, 3, 3] // neurons per layer
+['sigmoid', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f31126a3d68
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f31126a59e8
+layers: 4
+[20, 5, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f31126a8668
+layers: 5
+[20, 20, 9, 7, 5] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+5
+[20, 20, 7, 7, 5]
+['tanh', 'relu', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f31126ccef0
+
+~~ After: 
+Memory 1
+4
+[20, 17, 14, 7]
+['tanh', 'relu', 'tanh', 'tanh']
+
+~~ Before:
+Memory 2
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f31126fca90
+
+~~ After: 
+Memory 2
+3
+[20, 11, 3]
+['relu', 'sigmoid', 'relu']
+
+~~ Before:
+Memory 3
+4
+[20, 18, 12, 4]
+['relu', 'sigmoid', 'relu', 'tanh']
+
+MEMORY LOCATION: 0x7f311269f828
+
+~~ After: 
+Memory 3
+3
+[20, 18, 12]
+['relu', 'sigmoid', 'relu']
+
+~~ Before:
+Memory 4
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f31126a24a8
+
+~~ After: 
+Memory 4
+1
+[20]
+['tanh']
+
+~~ Before:
+Memory 5
+4
+[20, 17, 3, 3]
+['sigmoid', 'relu', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f31126a3128
+
+~~ After: 
+Memory 5
+4
+[20, 13, 3, 3]
+['sigmoid', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 6
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f31126a3d68
+
+~~ After: 
+Memory 6
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'relu']
+
+~~ Before:
+Memory 7
+4
+[20, 5, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f31126a59e8
+
+~~ After: 
+Memory 7
+4
+[20, 13, 4, 4]
+['sigmoid', 'sigmoid', 'relu', 'relu']
+
+~~ Before:
+Memory 8
+5
+[20, 20, 9, 7, 5]
+['tanh', 'relu', 'tanh', 'tanh', 'relu']
+
+MEMORY LOCATION: 0x7f31126a8668
+
+~~ After: 
+Memory 8
+4
+[20, 19, 9, 7]
+['tanh', 'relu', 'tanh', 'tanh']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f31126ccef0
+layers: 4
+[20, 17, 14, 7] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f31126fca90
+layers: 3
+[20, 11, 3] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f311269f828
+layers: 3
+[20, 18, 12] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f31126a24a8
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f31126a3128
+layers: 4
+[20, 13, 3, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f31126a3d68
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f31126a59e8
+layers: 4
+[20, 13, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f31126a8668
+layers: 4
+[20, 19, 9, 7] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 81.132% (0.58%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 77.403% (4.10%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 77.362% (4.86%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 79.429% (0.35%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 73.032% (2.43%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 80.441% (1.09%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 59.143% (13.32%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 80.672% (0.31%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f31126ccef0
+layers: 4
+[20, 17, 14, 7] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.132%
+Memory 2:
+MEMORY LOCATION: 0x7f31126fca90
+layers: 3
+[20, 11, 3] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: 77.403%
+Memory 3:
+MEMORY LOCATION: 0x7f311269f828
+layers: 3
+[20, 18, 12] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: 77.362%
+Memory 4:
+MEMORY LOCATION: 0x7f31126a24a8
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 79.429%
+Memory 5:
+MEMORY LOCATION: 0x7f31126a3128
+layers: 4
+[20, 13, 3, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 73.032%
+Memory 6:
+MEMORY LOCATION: 0x7f31126a3d68
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: 80.441%
+Memory 7:
+MEMORY LOCATION: 0x7f31126a59e8
+layers: 4
+[20, 13, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: 59.143%
+Memory 8:
+MEMORY LOCATION: 0x7f31126a8668
+layers: 4
+[20, 19, 9, 7] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: 80.672%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f310bcc5550
+layers: 4
+[20, 19, 9, 7] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f310bcf4588
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f310bc93320
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f310bc93e80
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f310bc95be0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f310bc97860
+layers: 4
+[20, 17, 14, 7] // neurons per layer
+['tanh', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f310bc9b4e0
+layers: 3
+[20, 18, 12] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f310d9adef0
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+4
+[20, 19, 9, 7]
+['tanh', 'relu', 'tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f310bcc5550
+
+~~ After: 
+Memory 1
+4
+[20, 20, 9, 5]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 2
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f310bcf4588
+
+~~ After: 
+Memory 2
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'sigmoid']
+
+~~ Before:
+Memory 3
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f310bc93320
+
+~~ After: 
+Memory 3
+2
+[20, 15]
+['relu', 'relu']
+
+~~ Before:
+Memory 4
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f310bc93e80
+
+~~ After: 
+Memory 4
+2
+[20, 10]
+['tanh', 'sigmoid']
+
+~~ Before:
+Memory 5
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f310bc95be0
+
+~~ After: 
+Memory 5
+1
+[20]
+['tanh']
+
+~~ Before:
+Memory 6
+4
+[20, 17, 14, 7]
+['tanh', 'relu', 'tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f310bc97860
+
+~~ After: 
+Memory 6
+4
+[20, 17, 14, 7]
+['tanh', 'relu', 'sigmoid', 'tanh']
+
+~~ Before:
+Memory 7
+3
+[20, 18, 12]
+['relu', 'sigmoid', 'relu']
+
+MEMORY LOCATION: 0x7f310bc9b4e0
+
+~~ After: 
+Memory 7
+3
+[20, 18, 16]
+['relu', 'sigmoid', 'relu']
+
+~~ Before:
+Memory 8
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f310d9adef0
+
+~~ After: 
+Memory 8
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'relu']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f310bcc5550
+layers: 4
+[20, 20, 9, 5] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f310bcf4588
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f310bc93320
+layers: 2
+[20, 15] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f310bc93e80
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f310bc95be0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f310bc97860
+layers: 4
+[20, 17, 14, 7] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f310bc9b4e0
+layers: 3
+[20, 18, 16] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f310d9adef0
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 79.107% (0.73%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 80.166% (1.52%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 79.797% (0.67%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 79.936% (0.23%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 79.752% (0.28%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 78.831% (1.32%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 77.219% (3.33%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 74.690% (1.39%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f310bcc5550
+layers: 4
+[20, 20, 9, 5] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 79.107%
+Memory 2:
+MEMORY LOCATION: 0x7f310bcf4588
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: 80.166%
+Memory 3:
+MEMORY LOCATION: 0x7f310bc93320
+layers: 2
+[20, 15] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: 79.797%
+Memory 4:
+MEMORY LOCATION: 0x7f310bc93e80
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'sigmoid'] // activation functions
+Prediction: 79.936%
+Memory 5:
+MEMORY LOCATION: 0x7f310bc95be0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 79.752%
+Memory 6:
+MEMORY LOCATION: 0x7f310bc97860
+layers: 4
+[20, 17, 14, 7] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'tanh'] // activation functions
+Prediction: 78.831%
+Memory 7:
+MEMORY LOCATION: 0x7f310bc9b4e0
+layers: 3
+[20, 18, 16] // neurons per layer
+['relu', 'sigmoid', 'relu'] // activation functions
+Prediction: 77.219%
+Memory 8:
+MEMORY LOCATION: 0x7f310d9adef0
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: 74.690%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f310586e780
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f310581c4e0
+layers: 4
+[20, 20, 9, 5] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f310580c9e8
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f31058347f0
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f3105836470
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f310583a0f0
+layers: 2
+[20, 15] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f310583ad30
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f310583c9b0
+layers: 4
+[20, 17, 14, 7] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f310586e780
+
+~~ After: 
+Memory 1
+2
+[20, 4]
+['tanh', 'tanh']
+
+~~ Before:
+Memory 2
+4
+[20, 20, 9, 5]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f310581c4e0
+
+~~ After: 
+Memory 2
+4
+[20, 20, 9, 9]
+['tanh', 'relu', 'sigmoid', 'relu']
+
+~~ Before:
+Memory 3
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'sigmoid']
+
+MEMORY LOCATION: 0x7f310580c9e8
+
+~~ After: 
+Memory 3
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 4
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f31058347f0
+
+~~ After: 
+Memory 4
+2
+[20, 19]
+['relu', 'relu']
+
+~~ Before:
+Memory 5
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f3105836470
+
+~~ After: 
+Memory 5
+2
+[20, 10]
+['tanh', 'tanh']
+
+~~ Before:
+Memory 6
+2
+[20, 15]
+['relu', 'relu']
+
+MEMORY LOCATION: 0x7f310583a0f0
+
+~~ After: 
+Memory 6
+2
+[20, 15]
+['sigmoid', 'relu']
+
+~~ Before:
+Memory 7
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f310583ad30
+
+~~ After: 
+Memory 7
+2
+[20, 11]
+['tanh', 'tanh']
+
+~~ Before:
+Memory 8
+4
+[20, 17, 14, 7]
+['tanh', 'relu', 'sigmoid', 'tanh']
+
+MEMORY LOCATION: 0x7f310583c9b0
+
+~~ After: 
+Memory 8
+1
+[20]
+['tanh']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f310586e780
+layers: 2
+[20, 4] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f310581c4e0
+layers: 4
+[20, 20, 9, 9] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f310580c9e8
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f31058347f0
+layers: 2
+[20, 19] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f3105836470
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f310583a0f0
+layers: 2
+[20, 15] // neurons per layer
+['sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f310583ad30
+layers: 2
+[20, 11] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f310583c9b0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 80.810% (0.51%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 79.660% (1.42%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 76.299% (2.87%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 80.948% (0.82%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 81.086% (0.80%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 78.417% (1.25%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 80.948% (0.50%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 79.982% (0.18%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f310586e780
+layers: 2
+[20, 4] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 80.810%
+Memory 2:
+MEMORY LOCATION: 0x7f310581c4e0
+layers: 4
+[20, 20, 9, 9] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'relu'] // activation functions
+Prediction: 79.660%
+Memory 3:
+MEMORY LOCATION: 0x7f310580c9e8
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 76.299%
+Memory 4:
+MEMORY LOCATION: 0x7f31058347f0
+layers: 2
+[20, 19] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: 80.948%
+Memory 5:
+MEMORY LOCATION: 0x7f3105836470
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.086%
+Memory 6:
+MEMORY LOCATION: 0x7f310583a0f0
+layers: 2
+[20, 15] // neurons per layer
+['sigmoid', 'relu'] // activation functions
+Prediction: 78.417%
+Memory 7:
+MEMORY LOCATION: 0x7f310583ad30
+layers: 2
+[20, 11] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 80.948%
+Memory 8:
+MEMORY LOCATION: 0x7f310583c9b0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 79.982%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30ffed6d30
+layers: 4
+[20, 20, 9, 9] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f31001b3048
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30ffe86898
+layers: 2
+[20, 19] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30ffe894e0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30ffe8b160
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30ffe8bda0
+layers: 2
+[20, 19] // neurons per layer
+['relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30ffe90a20
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30ffe926a0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+4
+[20, 20, 9, 9]
+['tanh', 'relu', 'sigmoid', 'relu']
+
+MEMORY LOCATION: 0x7f30ffed6d30
+
+~~ After: 
+Memory 1
+4
+[20, 20, 9, 8]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 2
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f31001b3048
+
+~~ After: 
+Memory 2
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 3
+2
+[20, 19]
+['relu', 'relu']
+
+MEMORY LOCATION: 0x7f30ffe86898
+
+~~ After: 
+Memory 3
+4
+[20, 19, 4, 4]
+['relu', 'tanh', 'relu', 'sigmoid']
+
+~~ Before:
+Memory 4
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30ffe894e0
+
+~~ After: 
+Memory 4
+4
+[20, 15, 4, 4]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 5
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30ffe8b160
+
+~~ After: 
+Memory 5
+4
+[20, 18, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 6
+2
+[20, 19]
+['relu', 'relu']
+
+MEMORY LOCATION: 0x7f30ffe8bda0
+
+~~ After: 
+Memory 6
+4
+[20, 19, 4, 3]
+['relu', 'relu', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 7
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f30ffe90a20
+
+~~ After: 
+Memory 7
+1
+[20]
+['tanh']
+
+~~ Before:
+Memory 8
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30ffe926a0
+
+~~ After: 
+Memory 8
+5
+[20, 17, 4, 4, 4]
+['sigmoid', 'sigmoid', 'sigmoid', 'tanh', 'tanh']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30ffed6d30
+layers: 4
+[20, 20, 9, 8] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f31001b3048
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30ffe86898
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30ffe894e0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30ffe8b160
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30ffe8bda0
+layers: 4
+[20, 19, 4, 3] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30ffe90a20
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30ffe926a0
+layers: 5
+[20, 17, 4, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'sigmoid', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 78.370% (1.04%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 79.015% (0.64%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 79.798% (0.52%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 72.572% (2.22%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 73.630% (2.12%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 79.337% (0.27%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 79.199% (0.25%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 69.581% (3.17%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30ffed6d30
+layers: 4
+[20, 20, 9, 8] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 78.370%
+Memory 2:
+MEMORY LOCATION: 0x7f31001b3048
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 79.015%
+Memory 3:
+MEMORY LOCATION: 0x7f30ffe86898
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['relu', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: 79.798%
+Memory 4:
+MEMORY LOCATION: 0x7f30ffe894e0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 72.572%
+Memory 5:
+MEMORY LOCATION: 0x7f30ffe8b160
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 73.630%
+Memory 6:
+MEMORY LOCATION: 0x7f30ffe8bda0
+layers: 4
+[20, 19, 4, 3] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: 79.337%
+Memory 7:
+MEMORY LOCATION: 0x7f30ffe90a20
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 79.199%
+Memory 8:
+MEMORY LOCATION: 0x7f30ffe926a0
+layers: 5
+[20, 17, 4, 4, 4] // neurons per layer
+['sigmoid', 'sigmoid', 'sigmoid', 'tanh', 'tanh'] // activation functions
+Prediction: 69.581%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30f9850fd0
+layers: 4
+[20, 20, 9, 8] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30f98018d0
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30f98300f0
+layers: 4
+[20, 19, 4, 3] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30f9830d30
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30f98319b0
+layers: 4
+[20, 20, 9, 8] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30f9833630
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30f98362b0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30f98a0fd0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+4
+[20, 20, 9, 8]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f9850fd0
+
+~~ After: 
+Memory 1
+4
+[20, 20, 16, 12]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 2
+4
+[20, 18, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f98018d0
+
+~~ After: 
+Memory 2
+4
+[20, 18, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 3
+4
+[20, 19, 4, 3]
+['relu', 'relu', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f98300f0
+
+~~ After: 
+Memory 3
+4
+[20, 19, 4, 3]
+['relu', 'relu', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 4
+4
+[20, 15, 4, 4]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f9830d30
+
+~~ After: 
+Memory 4
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 5
+4
+[20, 20, 9, 8]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f98319b0
+
+~~ After: 
+Memory 5
+5
+[20, 10, 9, 8, 8]
+['relu', 'relu', 'relu', 'tanh', 'relu']
+
+~~ Before:
+Memory 6
+4
+[20, 18, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f9833630
+
+~~ After: 
+Memory 6
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 7
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f30f98362b0
+
+~~ After: 
+Memory 7
+1
+[20]
+['tanh']
+
+~~ Before:
+Memory 8
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f30f98a0fd0
+
+~~ After: 
+Memory 8
+1
+[20]
+['tanh']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30f9850fd0
+layers: 4
+[20, 20, 16, 12] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30f98018d0
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30f98300f0
+layers: 4
+[20, 19, 4, 3] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30f9830d30
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30f98319b0
+layers: 5
+[20, 10, 9, 8, 8] // neurons per layer
+['relu', 'relu', 'relu', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30f9833630
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30f98362b0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30f98a0fd0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 8 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 79.522% (0.65%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 75.150% (1.18%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 78.094% (1.51%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 74.503% (3.34%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 77.130% (2.93%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 79.199% (1.08%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 79.613% (0.89%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 78.831% (0.81%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30f9850fd0
+layers: 4
+[20, 20, 16, 12] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 79.522%
+Memory 2:
+MEMORY LOCATION: 0x7f30f98018d0
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 75.150%
+Memory 3:
+MEMORY LOCATION: 0x7f30f98300f0
+layers: 4
+[20, 19, 4, 3] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: 78.094%
+Memory 4:
+MEMORY LOCATION: 0x7f30f9830d30
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 74.503%
+Memory 5:
+MEMORY LOCATION: 0x7f30f98319b0
+layers: 5
+[20, 10, 9, 8, 8] // neurons per layer
+['relu', 'relu', 'relu', 'tanh', 'relu'] // activation functions
+Prediction: 77.130%
+Memory 6:
+MEMORY LOCATION: 0x7f30f9833630
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 79.199%
+Memory 7:
+MEMORY LOCATION: 0x7f30f98362b0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 79.613%
+Memory 8:
+MEMORY LOCATION: 0x7f30f98a0fd0
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 78.831%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30f3017978
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30f303eb70
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30f2fdb7f0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30f2fde470
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30f2fdeac8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30f2fdb5f8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30f3fa5630
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30f2fe0e80
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+1
+[20]
+['tanh']
+
+MEMORY LOCATION: 0x7f30f3017978
+
+~~ After: 
+Memory 1
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 2
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30f303eb70
+
+~~ After: 
+Memory 2
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 3
+4
+[20, 15, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f2fdb7f0
+
+~~ After: 
+Memory 3
+4
+[20, 16, 4, 4]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 4
+4
+[20, 18, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f2fde470
+
+~~ After: 
+Memory 4
+4
+[20, 10, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 5
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30f2fdeac8
+
+~~ After: 
+Memory 5
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 6
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30f2fdb5f8
+
+~~ After: 
+Memory 6
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 7
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30f3fa5630
+
+~~ After: 
+Memory 7
+2
+[20, 10]
+['tanh', 'tanh']
+
+~~ Before:
+Memory 8
+4
+[20, 18, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30f2fe0e80
+
+~~ After: 
+Memory 8
+4
+[20, 18, 4, 4]
+['sigmoid', 'tanh', 'relu', 'sigmoid']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30f3017978
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30f303eb70
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30f2fdb7f0
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30f2fde470
+layers: 4
+[20, 10, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30f2fdeac8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30f2fdb5f8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30f3fa5630
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30f2fe0e80
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 9 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 79.015% (0.61%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 77.589% (0.51%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 77.821% (3.88%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 72.527% (1.21%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 78.417% (1.58%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 79.199% (0.25%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 80.441% (1.92%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 66.309% (15.07%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30f3017978
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 79.015%
+Memory 2:
+MEMORY LOCATION: 0x7f30f303eb70
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.589%
+Memory 3:
+MEMORY LOCATION: 0x7f30f2fdb7f0
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 77.821%
+Memory 4:
+MEMORY LOCATION: 0x7f30f2fde470
+layers: 4
+[20, 10, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 72.527%
+Memory 5:
+MEMORY LOCATION: 0x7f30f2fdeac8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 78.417%
+Memory 6:
+MEMORY LOCATION: 0x7f30f2fdb5f8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 79.199%
+Memory 7:
+MEMORY LOCATION: 0x7f30f3fa5630
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 80.441%
+Memory 8:
+MEMORY LOCATION: 0x7f30f2fe0e80
+layers: 4
+[20, 18, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: 66.309%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30edbe8ef0
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['relu', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30edb971d0
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30edbb8470
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30edbbc0f0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30edbbcd30
+layers: 4
+[20, 10, 4, 4] // neurons per layer
+['relu', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30edbbd9b0
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30edb40630
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30edd0a0b8
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+4
+[20, 16, 4, 4]
+['relu', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30edbe8ef0
+
+~~ After: 
+Memory 1
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 2
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f30edb971d0
+
+~~ After: 
+Memory 2
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 3
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30edbb8470
+
+~~ After: 
+Memory 3
+4
+[20, 10, 6, 6]
+['tanh', 'tanh', 'relu', 'relu']
+
+~~ Before:
+Memory 4
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30edbbc0f0
+
+~~ After: 
+Memory 4
+2
+[20, 14]
+['tanh', 'tanh']
+
+~~ Before:
+Memory 5
+4
+[20, 10, 4, 4]
+['relu', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30edbbcd30
+
+~~ After: 
+Memory 5
+5
+[20, 16, 4, 4, 4]
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu']
+
+~~ Before:
+Memory 6
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30edbbd9b0
+
+~~ After: 
+Memory 6
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 7
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30edb40630
+
+~~ After: 
+Memory 7
+2
+[20, 20]
+['relu', 'tanh']
+
+~~ Before:
+Memory 8
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30edd0a0b8
+
+~~ After: 
+Memory 8
+5
+[20, 5, 4, 3, 3]
+['tanh', 'tanh', 'relu', 'sigmoid', 'sigmoid']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30edbe8ef0
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30edb971d0
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30edbb8470
+layers: 4
+[20, 10, 6, 6] // neurons per layer
+['tanh', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30edbbc0f0
+layers: 2
+[20, 14] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30edbbcd30
+layers: 5
+[20, 16, 4, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30edbbd9b0
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30edb40630
+layers: 2
+[20, 20] // neurons per layer
+['relu', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30edd0a0b8
+layers: 5
+[20, 5, 4, 3, 3] // neurons per layer
+['tanh', 'tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 76.575% (1.17%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 77.681% (0.85%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 79.843% (0.30%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 80.902% (0.54%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 73.263% (1.02%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 79.429% (0.59%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 79.430% (1.34%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 69.812% (1.30%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30edbe8ef0
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 76.575%
+Memory 2:
+MEMORY LOCATION: 0x7f30edb971d0
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.681%
+Memory 3:
+MEMORY LOCATION: 0x7f30edbb8470
+layers: 4
+[20, 10, 6, 6] // neurons per layer
+['tanh', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: 79.843%
+Memory 4:
+MEMORY LOCATION: 0x7f30edbbc0f0
+layers: 2
+[20, 14] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 80.902%
+Memory 5:
+MEMORY LOCATION: 0x7f30edbbcd30
+layers: 5
+[20, 16, 4, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu'] // activation functions
+Prediction: 73.263%
+Memory 6:
+MEMORY LOCATION: 0x7f30edbbd9b0
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 79.429%
+Memory 7:
+MEMORY LOCATION: 0x7f30edb40630
+layers: 2
+[20, 20] // neurons per layer
+['relu', 'tanh'] // activation functions
+Prediction: 79.430%
+Memory 8:
+MEMORY LOCATION: 0x7f30edd0a0b8
+layers: 5
+[20, 5, 4, 3, 3] // neurons per layer
+['tanh', 'tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 69.812%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30e75905f8
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30e754f470
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30e756b7f0
+layers: 5
+[20, 16, 4, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30e756e470
+layers: 5
+[20, 16, 4, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30e75700f0
+layers: 2
+[20, 14] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30e7570d30
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30e75e2e10
+layers: 4
+[20, 10, 6, 6] // neurons per layer
+['tanh', 'tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+2
+[20, 10]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30e75905f8
+
+~~ After: 
+Memory 1
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+~~ Before:
+Memory 2
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30e754f470
+
+~~ After: 
+Memory 2
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 3
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30e7540940
+
+~~ After: 
+Memory 3
+3
+[20, 8, 7]
+['relu', 'tanh', 'tanh']
+
+~~ Before:
+Memory 4
+5
+[20, 16, 4, 4, 4]
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu']
+
+MEMORY LOCATION: 0x7f30e756b7f0
+
+~~ After: 
+Memory 4
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 5
+5
+[20, 16, 4, 4, 4]
+['sigmoid', 'tanh', 'sigmoid', 'sigmoid', 'relu']
+
+MEMORY LOCATION: 0x7f30e756e470
+
+~~ After: 
+Memory 5
+5
+[20, 16, 4, 4, 4]
+['sigmoid', 'tanh', 'tanh', 'sigmoid', 'relu']
+
+~~ Before:
+Memory 6
+2
+[20, 14]
+['tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30e75700f0
+
+~~ After: 
+Memory 6
+1
+[20]
+['relu']
+
+~~ Before:
+Memory 7
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30e7570d30
+
+~~ After: 
+Memory 7
+1
+[20]
+['tanh']
+
+~~ Before:
+Memory 8
+4
+[20, 10, 6, 6]
+['tanh', 'tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30e75e2e10
+
+~~ After: 
+Memory 8
+4
+[20, 12, 6, 6]
+['tanh', 'sigmoid', 'relu', 'relu']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30e75905f8
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30e754f470
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30e756b7f0
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30e756e470
+layers: 5
+[20, 16, 4, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30e75700f0
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30e7570d30
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30e75e2e10
+layers: 4
+[20, 12, 6, 6] // neurons per layer
+['tanh', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 11 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.178% 
+
+Memory 1:
+WAITING...
+Baseline: 78.877% (1.30%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 78.462% (2.93%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 81.362% (1.57%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 77.404% (0.41%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 62.688% (15.46%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 78.555% (1.14%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 78.785% (0.97%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 73.400% (2.23%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f31193ac5c0
+layers: 2
+[20, 10] // neurons per layer
+['tanh', 'tanh'] // activation functions
+Prediction: 81.178%
+Memory 1:
+MEMORY LOCATION: 0x7f30e75905f8
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: 78.877%
+Memory 2:
+MEMORY LOCATION: 0x7f30e754f470
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 78.462%
+Memory 3:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 4:
+MEMORY LOCATION: 0x7f30e756b7f0
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.404%
+Memory 5:
+MEMORY LOCATION: 0x7f30e756e470
+layers: 5
+[20, 16, 4, 4, 4] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid', 'relu'] // activation functions
+Prediction: 62.688%
+Memory 6:
+MEMORY LOCATION: 0x7f30e75700f0
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 78.555%
+Memory 7:
+MEMORY LOCATION: 0x7f30e7570d30
+layers: 1
+[20] // neurons per layer
+['tanh'] // activation functions
+Prediction: 78.785%
+Memory 8:
+MEMORY LOCATION: 0x7f30e75e2e10
+layers: 4
+[20, 12, 6, 6] // neurons per layer
+['tanh', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: 73.400%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 1:
+MEMORY LOCATION: 0x7f30e18ec908
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30e189b630
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30e188be80
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30e18a9978
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30e18aa5f8
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30e18ae278
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30e18aeeb8
+layers: 4
+[20, 12, 6, 6] // neurons per layer
+['tanh', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30e18b0b38
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+MEMORY LOCATION: 0x7f30e18ec908
+
+~~ After: 
+Memory 1
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+~~ Before:
+Memory 2
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30e189b630
+
+~~ After: 
+Memory 2
+3
+[20, 8, 3]
+['relu', 'tanh', 'relu']
+
+~~ Before:
+Memory 3
+3
+[20, 8, 7]
+['relu', 'tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30e188be80
+
+~~ After: 
+Memory 3
+3
+[20, 8, 7]
+['relu', 'tanh', 'tanh']
+
+~~ Before:
+Memory 4
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30e18a9978
+
+~~ After: 
+Memory 4
+4
+[20, 16, 4, 3]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 5
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30e18aa5f8
+
+~~ After: 
+Memory 5
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+~~ Before:
+Memory 6
+4
+[20, 16, 4, 4]
+['tanh', 'relu', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30e18ae278
+
+~~ After: 
+Memory 6
+4
+[20, 16, 4, 4]
+['tanh', 'tanh', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 7
+4
+[20, 12, 6, 6]
+['tanh', 'sigmoid', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30e18aeeb8
+
+~~ After: 
+Memory 7
+4
+[20, 12, 6, 6]
+['tanh', 'sigmoid', 'relu', 'relu']
+
+~~ Before:
+Memory 8
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f30e18b0b38
+
+~~ After: 
+Memory 8
+1
+[20]
+['sigmoid']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 1:
+MEMORY LOCATION: 0x7f30e18ec908
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30e189b630
+layers: 3
+[20, 8, 3] // neurons per layer
+['relu', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30e188be80
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30e18a9978
+layers: 4
+[20, 16, 4, 3] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30e18aa5f8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30e18ae278
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30e18aeeb8
+layers: 4
+[20, 12, 6, 6] // neurons per layer
+['tanh', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30e18b0b38
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 12 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.362% 
+
+Memory 1:
+WAITING...
+Baseline: 78.923% (0.92%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 78.876% (2.42%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 80.627% (1.82%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 76.299% (2.19%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 80.672% (0.11%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 78.555% (0.34%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 65.985% (15.78%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 77.082% (0.50%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 1:
+MEMORY LOCATION: 0x7f30e18ec908
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: 78.923%
+Memory 2:
+MEMORY LOCATION: 0x7f30e189b630
+layers: 3
+[20, 8, 3] // neurons per layer
+['relu', 'tanh', 'relu'] // activation functions
+Prediction: 78.876%
+Memory 3:
+MEMORY LOCATION: 0x7f30e188be80
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 80.627%
+Memory 4:
+MEMORY LOCATION: 0x7f30e18a9978
+layers: 4
+[20, 16, 4, 3] // neurons per layer
+['tanh', 'relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 76.299%
+Memory 5:
+MEMORY LOCATION: 0x7f30e18aa5f8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 80.672%
+Memory 6:
+MEMORY LOCATION: 0x7f30e18ae278
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 78.555%
+Memory 7:
+MEMORY LOCATION: 0x7f30e18aeeb8
+layers: 4
+[20, 12, 6, 6] // neurons per layer
+['tanh', 'sigmoid', 'relu', 'relu'] // activation functions
+Prediction: 65.985%
+Memory 8:
+MEMORY LOCATION: 0x7f30e18b0b38
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.082%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 1:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30db70ed30
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30db444eb8
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30db45eb00
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30db460780
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30db464400
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30db466080
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30db466cc0
+layers: 4
+[20, 16, 4, 4] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30db686dd8
+
+~~ After: 
+Memory 1
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+~~ Before:
+Memory 2
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30db70ed30
+
+~~ After: 
+Memory 2
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+~~ Before:
+Memory 3
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+MEMORY LOCATION: 0x7f30db444eb8
+
+~~ After: 
+Memory 3
+2
+[20, 10]
+['sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 4
+3
+[20, 8, 7]
+['relu', 'tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30db45eb00
+
+~~ After: 
+Memory 4
+4
+[20, 12, 6, 3]
+['relu', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 5
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+MEMORY LOCATION: 0x7f30db460780
+
+~~ After: 
+Memory 5
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+~~ Before:
+Memory 6
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30db464400
+
+~~ After: 
+Memory 6
+3
+[20, 20, 15]
+['relu', 'relu', 'relu']
+
+~~ Before:
+Memory 7
+3
+[20, 8, 7]
+['relu', 'tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30db466080
+
+~~ After: 
+Memory 7
+3
+[20, 8, 7]
+['sigmoid', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 8
+4
+[20, 16, 4, 4]
+['tanh', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30db466cc0
+
+~~ After: 
+Memory 8
+4
+[20, 15, 4, 4]
+['tanh', 'tanh', 'sigmoid', 'sigmoid']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 1:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30db70ed30
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30db444eb8
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30db45eb00
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30db460780
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30db464400
+layers: 3
+[20, 20, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30db466080
+layers: 3
+[20, 8, 7] // neurons per layer
+['sigmoid', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30db466cc0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 13 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 81.362% 
+
+Memory 1:
+WAITING...
+Baseline: 82.191% (0.29%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 81.087% (0.99%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 78.140% (0.83%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 76.805% (2.90%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 79.797% (0.46%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 81.316% (1.10%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 70.964% (2.69%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 76.990% (0.70%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30e7540940
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: 81.362%
+Memory 1:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 2:
+MEMORY LOCATION: 0x7f30db70ed30
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 81.087%
+Memory 3:
+MEMORY LOCATION: 0x7f30db444eb8
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'sigmoid'] // activation functions
+Prediction: 78.140%
+Memory 4:
+MEMORY LOCATION: 0x7f30db45eb00
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 76.805%
+Memory 5:
+MEMORY LOCATION: 0x7f30db460780
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: 79.797%
+Memory 6:
+MEMORY LOCATION: 0x7f30db464400
+layers: 3
+[20, 20, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: 81.316%
+Memory 7:
+MEMORY LOCATION: 0x7f30db466080
+layers: 3
+[20, 8, 7] // neurons per layer
+['sigmoid', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 70.964%
+Memory 8:
+MEMORY LOCATION: 0x7f30db466cc0
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 76.990%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30d4e47b00
+layers: 3
+[20, 20, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30d4e76940
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30d4e14080
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30d4e14cc0
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30d4e18940
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30d4e195c0
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30d4e1d240
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30d4e1de80
+layers: 3
+[20, 8, 7] // neurons per layer
+['relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+3
+[20, 20, 15]
+['relu', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30d4e47b00
+
+~~ After: 
+Memory 1
+3
+[20, 20, 15]
+['relu', 'relu', 'relu']
+
+~~ Before:
+Memory 2
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+MEMORY LOCATION: 0x7f30d4e76940
+
+~~ After: 
+Memory 2
+2
+[20, 10]
+['sigmoid', 'tanh']
+
+~~ Before:
+Memory 3
+4
+[20, 12, 6, 3]
+['relu', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30d4e14080
+
+~~ After: 
+Memory 3
+4
+[20, 12, 6, 3]
+['relu', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 4
+2
+[20, 10]
+['sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30d4e14cc0
+
+~~ After: 
+Memory 4
+2
+[20, 10]
+['sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 5
+4
+[20, 12, 6, 3]
+['relu', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30d4e18940
+
+~~ After: 
+Memory 5
+4
+[20, 12, 6, 5]
+['relu', 'relu', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 6
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30d4e195c0
+
+~~ After: 
+Memory 6
+3
+[20, 16, 15]
+['relu', 'relu', 'relu']
+
+~~ Before:
+Memory 7
+4
+[20, 15, 4, 4]
+['tanh', 'tanh', 'sigmoid', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30d4e1d240
+
+~~ After: 
+Memory 7
+4
+[20, 15, 4, 4]
+['tanh', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 8
+3
+[20, 8, 7]
+['relu', 'tanh', 'tanh']
+
+MEMORY LOCATION: 0x7f30d4e1de80
+
+~~ After: 
+Memory 8
+1
+[20]
+['relu']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30d4e47b00
+layers: 3
+[20, 20, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30d4e76940
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30d4e14080
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30d4e14cc0
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30d4e18940
+layers: 4
+[20, 12, 6, 5] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30d4e195c0
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30d4e1d240
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30d4e1de80
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 14 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 82.191% 
+
+Memory 1:
+WAITING...
+Baseline: 80.304% (1.20%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 79.521% (0.77%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 79.521% (0.44%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 77.588% (1.03%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 78.693% (1.70%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 80.442% (0.91%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 79.291% (0.70%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 78.001% (2.38%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30d4e47b00
+layers: 3
+[20, 20, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: 80.304%
+Memory 2:
+MEMORY LOCATION: 0x7f30d4e76940
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'tanh'] // activation functions
+Prediction: 79.521%
+Memory 3:
+MEMORY LOCATION: 0x7f30d4e14080
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 79.521%
+Memory 4:
+MEMORY LOCATION: 0x7f30d4e14cc0
+layers: 2
+[20, 10] // neurons per layer
+['sigmoid', 'sigmoid'] // activation functions
+Prediction: 77.588%
+Memory 5:
+MEMORY LOCATION: 0x7f30d4e18940
+layers: 4
+[20, 12, 6, 5] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: 78.693%
+Memory 6:
+MEMORY LOCATION: 0x7f30d4e195c0
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: 80.442%
+Memory 7:
+MEMORY LOCATION: 0x7f30d4e1d240
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 79.291%
+Memory 8:
+MEMORY LOCATION: 0x7f30d4e1de80
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 78.001%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30cf12b550
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30cf0cfe10
+layers: 4
+[20, 12, 6, 5] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30cf0f0a90
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30cf0f1710
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30cf0f4390
+layers: 4
+[20, 12, 6, 5] // neurons per layer
+['relu', 'relu', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30cf0f6048
+layers: 4
+[20, 15, 4, 4] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30cf0f6c50
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30d0226dd8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+4
+[20, 15, 4, 4]
+['tanh', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30cf12b550
+
+~~ After: 
+Memory 1
+4
+[20, 19, 4, 4]
+['tanh', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 2
+4
+[20, 12, 6, 5]
+['relu', 'relu', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30cf0cfe10
+
+~~ After: 
+Memory 2
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 3
+4
+[20, 12, 6, 3]
+['relu', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30cf0f0a90
+
+~~ After: 
+Memory 3
+4
+[20, 12, 6, 3]
+['tanh', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 4
+3
+[20, 16, 15]
+['relu', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30cf0f1710
+
+~~ After: 
+Memory 4
+3
+[20, 16, 15]
+['relu', 'relu', 'relu']
+
+~~ Before:
+Memory 5
+4
+[20, 12, 6, 5]
+['relu', 'relu', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30cf0f4390
+
+~~ After: 
+Memory 5
+4
+[20, 12, 6, 5]
+['relu', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 6
+4
+[20, 15, 4, 4]
+['tanh', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30cf0f6048
+
+~~ After: 
+Memory 6
+4
+[20, 12, 4, 3]
+['tanh', 'tanh', 'sigmoid', 'tanh']
+
+~~ Before:
+Memory 7
+3
+[20, 16, 15]
+['relu', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30cf0f6c50
+
+~~ After: 
+Memory 7
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+~~ Before:
+Memory 8
+1
+[20]
+['relu']
+
+MEMORY LOCATION: 0x7f30d0226dd8
+
+~~ After: 
+Memory 8
+1
+[20]
+['relu']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30cf12b550
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30cf0cfe10
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30cf0f0a90
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30cf0f1710
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30cf0f4390
+layers: 4
+[20, 12, 6, 5] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30cf0f6048
+layers: 4
+[20, 12, 4, 3] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30cf0f6c50
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30d0226dd8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 15 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 82.191% 
+
+Memory 1:
+WAITING...
+Baseline: 78.968% (2.18%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 77.635% (0.41%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 80.441% (0.58%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 79.061% (0.44%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 78.416% (1.64%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 78.416% (2.32%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 81.822% (1.70%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 77.864% (1.37%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30cf12b550
+layers: 4
+[20, 19, 4, 4] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 78.968%
+Memory 2:
+MEMORY LOCATION: 0x7f30cf0cfe10
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.635%
+Memory 3:
+MEMORY LOCATION: 0x7f30cf0f0a90
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 80.441%
+Memory 4:
+MEMORY LOCATION: 0x7f30cf0f1710
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: 79.061%
+Memory 5:
+MEMORY LOCATION: 0x7f30cf0f4390
+layers: 4
+[20, 12, 6, 5] // neurons per layer
+['relu', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 78.416%
+Memory 6:
+MEMORY LOCATION: 0x7f30cf0f6048
+layers: 4
+[20, 12, 4, 3] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'tanh'] // activation functions
+Prediction: 78.416%
+Memory 7:
+MEMORY LOCATION: 0x7f30cf0f6c50
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 81.822%
+Memory 8:
+MEMORY LOCATION: 0x7f30d0226dd8
+layers: 1
+[20] // neurons per layer
+['relu'] // activation functions
+Prediction: 77.864%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30c8aec208
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30c8a8d550
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30c8aa41d0
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['tanh', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30c8aa4e10
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30c8aa7a90
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30c8aa8710
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30c8aad390
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30cccb0cf8
+layers: 4
+[20, 12, 4, 3] // neurons per layer
+['tanh', 'tanh', 'sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+MUTATING... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~ Before:
+Memory 1
+3
+[20, 16, 15]
+['relu', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30c8aec208
+
+~~ After: 
+Memory 1
+3
+[20, 16, 15]
+['relu', 'tanh', 'relu']
+
+~~ Before:
+Memory 2
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30c8a8d550
+
+~~ After: 
+Memory 2
+3
+[20, 16, 15]
+['sigmoid', 'relu', 'relu']
+
+~~ Before:
+Memory 3
+4
+[20, 12, 6, 3]
+['tanh', 'tanh', 'tanh', 'sigmoid']
+
+MEMORY LOCATION: 0x7f30c8aa41d0
+
+~~ After: 
+Memory 3
+4
+[20, 12, 6, 3]
+['sigmoid', 'tanh', 'tanh', 'sigmoid']
+
+~~ Before:
+Memory 4
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30c8aa4e10
+
+~~ After: 
+Memory 4
+3
+[20, 16, 15]
+['tanh', 'relu', 'sigmoid']
+
+~~ Before:
+Memory 5
+1
+[20]
+['sigmoid']
+
+MEMORY LOCATION: 0x7f30c8aa7a90
+
+~~ After: 
+Memory 5
+1
+[20]
+['sigmoid']
+
+~~ Before:
+Memory 6
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30c8aa8710
+
+~~ After: 
+Memory 6
+5
+[20, 16, 15, 4, 3]
+['relu', 'relu', 'relu', 'tanh', 'tanh']
+
+~~ Before:
+Memory 7
+3
+[20, 16, 15]
+['tanh', 'relu', 'relu']
+
+MEMORY LOCATION: 0x7f30c8aad390
+
+~~ After: 
+Memory 7
+3
+[20, 16, 15]
+['relu', 'sigmoid', 'sigmoid']
+
+~~ Before:
+Memory 8
+4
+[20, 12, 4, 3]
+['tanh', 'tanh', 'sigmoid', 'tanh']
+
+MEMORY LOCATION: 0x7f30cccb0cf8
+
+~~ After: 
+Memory 8
+4
+[20, 12, 10, 3]
+['tanh', 'sigmoid', 'sigmoid', 'tanh']
+END MUTATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AFTER MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30c8aec208
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'tanh', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30c8a8d550
+layers: 3
+[20, 16, 15] // neurons per layer
+['sigmoid', 'relu', 'relu'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30c8aa41d0
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30c8aa4e10
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30c8aa7a90
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30c8aa8710
+layers: 5
+[20, 16, 15, 4, 3] // neurons per layer
+['relu', 'relu', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30c8aad390
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30cccb0cf8
+layers: 4
+[20, 12, 10, 3] // neurons per layer
+['tanh', 'sigmoid', 'sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
+
+~~~~ GENERATION 16 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~ RUNNING ~~~~
+Memory 0:
+(done last time)
+Baseline: 82.191% 
+
+Memory 1:
+WAITING...
+Baseline: 80.948% (0.40%)
+DONE.
+
+Memory 2:
+WAITING...
+Baseline: 78.969% (0.29%)
+DONE.
+
+Memory 3:
+WAITING...
+Baseline: 73.078% (1.86%)
+DONE.
+
+Memory 4:
+WAITING...
+Baseline: 80.856% (0.33%)
+DONE.
+
+Memory 5:
+WAITING...
+Baseline: 77.589% (0.79%)
+DONE.
+
+Memory 6:
+WAITING...
+Baseline: 79.568% (1.59%)
+DONE.
+
+Memory 7:
+WAITING...
+Baseline: 77.173% (1.62%)
+DONE.
+
+Memory 8:
+WAITING...
+Baseline: 72.665% (0.72%)
+DONE.
+
+BEFORE NATURAL SELECTION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30c8aec208
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'tanh', 'relu'] // activation functions
+Prediction: 80.948%
+Memory 2:
+MEMORY LOCATION: 0x7f30c8a8d550
+layers: 3
+[20, 16, 15] // neurons per layer
+['sigmoid', 'relu', 'relu'] // activation functions
+Prediction: 78.969%
+Memory 3:
+MEMORY LOCATION: 0x7f30c8aa41d0
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: 73.078%
+Memory 4:
+MEMORY LOCATION: 0x7f30c8aa4e10
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: 80.856%
+Memory 5:
+MEMORY LOCATION: 0x7f30c8aa7a90
+layers: 1
+[20] // neurons per layer
+['sigmoid'] // activation functions
+Prediction: 77.589%
+Memory 6:
+MEMORY LOCATION: 0x7f30c8aa8710
+layers: 5
+[20, 16, 15, 4, 3] // neurons per layer
+['relu', 'relu', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: 79.568%
+Memory 7:
+MEMORY LOCATION: 0x7f30c8aad390
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: 77.173%
+Memory 8:
+MEMORY LOCATION: 0x7f30cccb0cf8
+layers: 4
+[20, 12, 10, 3] // neurons per layer
+['tanh', 'sigmoid', 'sigmoid', 'tanh'] // activation functions
+Prediction: 72.665%
+
+BEFORE MUTATION:
+
+~~~~ ADITIONAL INFO ~~~~
+
+Memory 0:
+MEMORY LOCATION: 0x7f30db686dd8
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'relu'] // activation functions
+Prediction: 82.191%
+Memory 1:
+MEMORY LOCATION: 0x7f30c2106f60
+layers: 5
+[20, 16, 15, 4, 3] // neurons per layer
+['relu', 'relu', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 2:
+MEMORY LOCATION: 0x7f30c21334a8
+layers: 5
+[20, 16, 15, 4, 3] // neurons per layer
+['relu', 'relu', 'relu', 'tanh', 'tanh'] // activation functions
+Prediction: -100.000%
+Memory 3:
+MEMORY LOCATION: 0x7f30c20d34e0
+layers: 3
+[20, 16, 15] // neurons per layer
+['relu', 'sigmoid', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 4:
+MEMORY LOCATION: 0x7f30c20d5160
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 5:
+MEMORY LOCATION: 0x7f30c20d5da0
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 6:
+MEMORY LOCATION: 0x7f30c20d7a20
+layers: 3
+[20, 16, 15] // neurons per layer
+['tanh', 'relu', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 7:
+MEMORY LOCATION: 0x7f30c20da6a0
+layers: 4
+[20, 12, 6, 3] // neurons per layer
+['sigmoid', 'tanh', 'tanh', 'sigmoid'] // activation functions
+Prediction: -100.000%
+Memory 8:
+MEMORY LOCATION: 0x7f30cd5a70f0
+layers: 4
+[20, 12, 10, 3] // neurons per layer
+['tanh', 'sigmoid', 'sigmoid', 'tanh'] // activation functions
+Prediction: -100.000%
